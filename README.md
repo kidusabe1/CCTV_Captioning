@@ -1,15 +1,17 @@
-## Captionomaly: A Deep Learning Toolbox for Anomaly Captioning in Social Surveillance Systems
+## Automated Captioning of LIVE CCTV Feed
 
 ### <a name = "Description"> </a> Description
-This repository is the source code for the paper "Captionomaly: A Deep Learning Toolbox for Anomaly Captioning in Surveillance Videos". 
 
-**Abstract:** Video stream monitoring and reporting can be a tedious task if one has to go through several hours of clippings on a daily basis. It also leaves room for errors because of the repetitive nature of the task. In this paper, we provide a tool with the aim of automating the process of anomaly detection and reporting. We combine the results of anomaly detection and video captioning models in our application, and introduce a new dataset specific for training the models to be used for surveillance purposes. The anomaly detection framework is trained on the UCF-Crime dataset, and the captioning model is trained on a new dataset we introduced, called UCFC-VD. This tool will be the first of its kind combining the two frameworks for performing the task of video surveillance and reporting efficiently.
+The framework combines anomaly detection with video captioning, utilizing the UCF-Crime dataset and UCFC-VD dataset to streamline video monitoring and reporting.
 
-The major contributions of our work are:
+This implementation is based on the following 2 papers: 
+  1.[Anomaly detection](https://ieeexplore.ieee.org/document/10205699).
+  2.[Video Captioning](https://ieeexplore.ieee.org/document/9084781).
 
-1. We introduce a new dataset called UCFC-VD (UCF-Crime Video Description) for anomaly captioning purposes.
-2. We propose a framework for anomaly detection and video captioning that works efficiently with very small amount of inputs.
-3. The framework introduced here can be used as a toolbox to completely automate the process of surveillance of video footage and report any anomaly to the user.
+Dataset Used: UCF-Crime for videos and a new caption dataset from the [paper](https://ieeexplore.ieee.org/document/10021309) called UCFC-VD 
+The dataset download links for the models are given in their respective directories.
+
+The framework introduced here can be used as a toolbox to completely automate the process of surveillance of video footage and report any anomaly to the user.
 
 ![Caption Result](Video_Captioning/Delving_Deeper_into_the_Decoder_for_Video_Captioning/Results/CaptionResult.JPG)
 
@@ -52,18 +54,3 @@ To test the code on individual samples using the weights from the pre-trained mo
 
 ---
 
-### <a name = "Data"> </a> Data
-The dataset download links for the models are given in their respective directories.
-
----
-
-### <a name = "Citation"> </a> Citation
-```
-@article{goyal2023captionomaly,
-  title={Captionomaly: A Deep Learning Toolbox for Anomaly Captioning in Social Surveillance Systems},
-  author={Goyal, Adit and Mandal, Murari and Hassija, Vikas and Aloqaily, Moayad and Chamola, Vinay},
-  journal={IEEE Transactions on Computational Social Systems},
-  year={2023},
-  publisher={IEEE}
-}
-```
