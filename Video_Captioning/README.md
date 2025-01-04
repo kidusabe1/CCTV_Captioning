@@ -2,7 +2,7 @@
 [UCFC-VD](https://forms.gle/KkyMwFTCZpeyP4pAA)
 
 #### Requirements
-python 3.6
+python >3.6
 
 tensorflow 2.1.3
 
