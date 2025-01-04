@@ -7,10 +7,10 @@ Replace 'Test_Anomaly_Detector_public.py' in the folder with the corresponding f
 #### Requirements
 python >3.6
 
-tensorflow >1.15.4
+tensorflow 1.15.4
 
-cv2 >3.4.8
+cv2 3.4.8
 
-keras >1.1.0
+keras 1.1.0
 
-theanos >0.9.0
+theanos 0.9.0
