@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Adit Goyal
-# Date: 2021-06-18
-
-# configuration for UCFC-VD
-
 class Config():
     def __init__(self, embed):
         self._n_w = 300                #Word-embedding Dimension (GloVe-840B-300d is used here)

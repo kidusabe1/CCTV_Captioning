@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Adit Goyal
-# Date: 2021-06-18
-
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 import moviepy.editor
 import os

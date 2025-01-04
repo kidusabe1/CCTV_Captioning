@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Adit Goyal
-# Date: 2021-06-18
-
 import tensorflow.compat.v1 as tf
 from pprint import pprint
 tf.disable_eager_execution()

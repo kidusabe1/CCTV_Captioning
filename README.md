@@ -38,12 +38,6 @@ To test the code on individual samples using the weights from the pre-trained mo
 ---
 
 ### <a name = "Training"> </a>Training
-###### Anomaly Detection 
-[Real-World Anomaly Detection in Surveillance Videos](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)
-
-###### Video Captioning
-[Delving Deeper into the Decoder for Video Captioning](https://github.com/WingsBrokenAngel/delving-deeper-into-the-decoder-for-video-captioning#requirement)
-
 
 1. Prepare the Corpus, Reference, Vocabulary and Tagging files using the scripts given [here](https://github.com/Adit31/Captionomaly-Deep-Learning-Toolbox-for-Anomaly-Captioning/tree/main/Video_Captioning/Data_Preparation/Scripts).
 2. Extract ResNeXt features of all the videos in a single .npy file using [Prepare_frames.py](https://github.com/Adit31/Captionomaly-Deep-Learning-Toolbox-for-Anomaly-Captioning/blob/main/Video_Captioning/Feature_Extractor/Prepare_frames.py) and [generate_res_feature.py](https://github.com/Adit31/Captionomaly-Deep-Learning-Toolbox-for-Anomaly-Captioning/blob/main/Video_Captioning/Feature_Extractor/generate_res_feature.py).

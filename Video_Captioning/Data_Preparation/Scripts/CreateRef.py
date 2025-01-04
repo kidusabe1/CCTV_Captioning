@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Adit Goyal
-# Date: 2021-06-18
 
 import pandas as pd
 import glob
